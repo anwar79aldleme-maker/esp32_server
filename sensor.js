@@ -7,7 +7,7 @@ app.use(cors());
 app.use(helmet());
 app.use(express.json());
 // ضع هن ا URL كامل من Neon PostgreSQL
-const DATABASE_URL = "postgresql://neondb_owner:npg_7tlz6VPCJnGe@ep-crimson-lake-ag2d88hh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require";
+const DATABASE_URL = "postgresql://neondb_owner:npg_91ugFqejVBCl@ep-sweet-mountain-agbgw75w-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require";
 const pool = new Pool({
 connectionString: DATABASE_URL,
 ssl: { rejectUnauthorized: false } // ضروري لاتصال Neon
